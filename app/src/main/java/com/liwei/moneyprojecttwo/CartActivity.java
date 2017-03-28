@@ -94,18 +94,18 @@ public class CartActivity extends AppCompatActivity implements ShopCarExpandable
         }
 
 
-        for (int i = 0; i < 1; i++) {
+//        for (int i = 0; i < 1; i++) {
 
-            groups.add(new GroupInfo(i + "", "第八号当铺" + (i + 1) + "号店"));
+            groups.add(new GroupInfo(0 + "", "第八号当铺" + (0 + 1) + "号店"));
 
             List<ProductInfo> products = new ArrayList<>();
             for (int j = 0; j <= query.size()-1; j++) {
                 products.add(new ProductInfo(j + "", "商品", query.get(j)
-                        .getImage(), query.get(0).getName(), query.get(0).getPrice() , 1));
+                        .getImage(), query.get(j).getName(), query.get(j).getPrice() , 1));
             }
 
-            children.put(groups.get(i).getId(), products);// 将组元素的一个唯一值，这里取Id，作为子元素List的Key
-        }
+            children.put(groups.get(0).getId(), products);// 将组元素的一个唯一值，这里取Id，作为子元素List的Key
+//        }
     }
 
     @Override

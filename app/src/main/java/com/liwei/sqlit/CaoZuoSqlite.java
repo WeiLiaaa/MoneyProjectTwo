@@ -64,10 +64,10 @@ public class CaoZuoSqlite {
 
         //创建可读可写的数据库
         SQLiteDatabase db = sqlite.getWritableDatabase();
-        CartBean bean=new CartBean();
+
         Cursor cursor = db.query("cart", null, null, null, null, null, null);
         while (cursor.moveToNext()) {
-
+            CartBean bean=new CartBean();
             String imageUrl = cursor.getString(cursor.getColumnIndex("imageUrl"));
             String name = cursor.getString(cursor.getColumnIndex("name"));
             int price = cursor.getInt(cursor.getColumnIndex("price"));

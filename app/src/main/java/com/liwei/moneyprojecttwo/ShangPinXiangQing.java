@@ -8,7 +8,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.liwei.sqlit.CaoZuoSqlite;
 import com.nostra13.universalimageloader.core.ImageLoader;
@@ -96,7 +95,6 @@ public class ShangPinXiangQing extends AppCompatActivity implements View.OnClick
             //把数据添加到数据中
             case R.id.shangpin_cart:
                 sqlite.insert(image1,name1, Double.parseDouble(newPrice1));
-                Toast.makeText(ShangPinXiangQing.this,"添加成功",Toast.LENGTH_SHORT).show();
                 break;
         }
     }
