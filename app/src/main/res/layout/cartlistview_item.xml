@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:descendantFocusability="blocksDescendants">
+
+    <TextView
+        android:id="@+id/item_product_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="商品名称"
+        android:textColor="#000"
+        android:textSize="20sp"
+        />
+
+    <ImageButton
+        android:id="@+id/item_btn_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/item_product_name"
+        android:layout_marginLeft="10dp"
+        android:background="#0000"
+        />
+
+    <TextView
+        android:id="@+id/item_product_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/item_product_name"
+        android:layout_margin="5dp"
+        android:layout_toRightOf="@id/item_btn_add"
+        android:text="1"
+        android:textColor="#000"
+        android:textSize="25sp"
+        />
+
+    <ImageButton
+        android:id="@+id/item_btn_sub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/item_product_name"
+        android:layout_toRightOf="@id/item_product_num"
+        android:background="#0000"
+        />
+
+    <TextView
+        android:id="@+id/item_product_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_margin="10dp"
+        android:text="0"
+        android:textColor="#000"
+        android:textSize="20sp"
+        />
+
+</RelativeLayout>
