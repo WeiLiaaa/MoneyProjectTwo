@@ -1,11 +1,23 @@
 [
     {
+        "merged": "F:\\btwob\\MoneyProjectTwo\\pullToRefreshlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\default_ptr_rotate.png",
+        "source": "F:\\btwob\\MoneyProjectTwo\\pullToRefreshlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\default_ptr_rotate.png"
+    },
+    {
         "merged": "F:\\MoneyProject\\MoneyProjectTwo\\pullToRefreshlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\default_ptr_flip.jpg",
         "source": "F:\\MoneyProject\\MoneyProjectTwo\\pullToRefreshlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\default_ptr_flip.jpg"
     },
     {
+        "merged": "F:\\btwob\\MoneyProjectTwo\\pullToRefreshlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\default_ptr_flip.jpg",
+        "source": "F:\\btwob\\MoneyProjectTwo\\pullToRefreshlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\default_ptr_flip.jpg"
+    },
+    {
         "merged": "F:\\MoneyProject\\MoneyProjectTwo\\pullToRefreshlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\indicator_arrow.png",
         "source": "F:\\MoneyProject\\MoneyProjectTwo\\pullToRefreshlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\indicator_arrow.png"
+    },
+    {
+        "merged": "F:\\btwob\\MoneyProjectTwo\\pullToRefreshlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\indicator_arrow.png",
+        "source": "F:\\btwob\\MoneyProjectTwo\\pullToRefreshlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\indicator_arrow.png"
     },
     {
         "merged": "F:\\MoneyProject\\MoneyProjectTwo\\pullToRefreshlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\default_ptr_rotate.png",
