@@ -22,8 +22,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import static android.R.attr.name;
-
 /**
  * Created by wu  suo  wei on 2017/3/16.
  * 购物车页面
@@ -45,6 +43,7 @@ public class CartActivity extends AppCompatActivity implements ShopCarExpandable
     private int totalCount = 0;// 购买的商品总数量
     private CaoZuoSqlite sqlite;
     private String name2;
+    private ArrayList<CartBean> query;
 
 
     @Override
@@ -86,12 +85,12 @@ public class CartActivity extends AppCompatActivity implements ShopCarExpandable
     private void virtualData() {
         //查询数据库的字段
         sqlite = new CaoZuoSqlite(CartActivity.this);
-        ArrayList<CartBean> query = sqlite.query();
-        for (CartBean b:query) {
+        query = sqlite.query();
+    /*    for (CartBean b:query) {
             name2 = b.getName();
             System.out.print(name);
             Toast.makeText(this,name2,Toast.LENGTH_SHORT).show();
-        }
+        }*/
 
 
 //        for (int i = 0; i < 1; i++) {
@@ -242,6 +241,7 @@ public class CartActivity extends AppCompatActivity implements ShopCarExpandable
             for (int j = 0; j < child.size(); j++) {
                 if (child.get(j).isChoosed()) {
                     todeletProdut.add(child.get(j));
+                    sqlite.delete(query.get(j).getName());
                 }
             }
             child.removeAll(todeletProdut);
